@@ -94,6 +94,7 @@ public class Emulator extends Thread {
 		
 	    // Bresenham-based super-cover line algorithm
 	    // see http://www.ese-metz.fr/~dedu/projects/bresenham/
+		// drawing pixels was replaced by checking the solidMask
 		{
 			    boolean vEnabledEnhanced = true;
 
